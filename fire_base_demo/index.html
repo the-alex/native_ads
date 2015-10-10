@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Messing Around with Firebase</title>
+    
+
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" media="screen" href="//netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="//code.jquery.com/jquery.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h3 class="text-center">A Simple Message Board</h3>
+        <h4 class="text-center">Hit the button with a string in the box to update the message.</h4>
+        <div class="jumbotron">
+            <h2 id="currentMessage" class="text-center"></h2>
+        </div>
+
+        <div class="form-group">
+            <input type="text" id="txtNewMessage" class="form-control">
+            <button id="btnUpdateMessage" class="btn btn-primary">Update</button>
+        </div>
+    </div>
+
+    <!-- client side dependencies -->
+    <script src="https://cdn.firebase.com/js/client/2.3.1/firebase.js"></script>
+
+    <script>
+    var currentMessage = document.getElementById('currentMessage'),
+        txtNewMessage = document.getElementById('txtNewMessage'),
+        btnUpdateMessage = document.getElementById('btnUpdateMessage'),
+        rootRef = new Firebase("https://native-ads.firebaseio.com/"),
+        currentMessageRef = rootRef.child('currentMessage');
+
+        btnUpdateMessage.addEventListener('click', function () {
+
+            currentMessageRef.set(txtNewMessage.value);
+            txtNewMessage.value = '';
+
+        });
+
+        currentMessageRef.on('value', function(snapshot) {
+
+            currentMessage.innerText = snapshot.val();
+
+        });
+    
+    </script>
+
+</body>
+</html>
+
+
