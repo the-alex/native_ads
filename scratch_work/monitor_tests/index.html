@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Monitor Testing</title>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+
+    <!-- Firebase Library -->
+    <script src="https://cdn.firebase.com/js/client/2.3.1/firebase.js"></script>
+    
+    
+    <!-- Utilities (evetually, I should put these in utils.js) -->
+    <script type="application/javascript">
+        function genUUID(){
+            var d = new Date().getTime();
+            var uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+                var r = (d + Math.random()*16)%16 | 0;
+                d = Math.floor(d/16);
+                return (c=='x' ? r : (r&0x3|0x8)).toString(16);
+            });
+            return uuid;
+        }
+    </script>
+    
+    
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="jumbotron">
+                <h1 class="text-center">Experiments!</h1>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-xs-4"></div>
+            <div class="col-xs-4">
+                <div class="form-group">
+                    <input type="text" id="expLength" class="form-control" placeholder="Length in Minutes">
+                    <input type="text" id="expVarient" class="form-control" placeholder="Experiment Varient">
+                    <button id="btnStartExp" class="btn btn-primary">Start Experiment</button>
+                </div>
+            </div>
+            <div class="col-xs-4"></div>
+        </div>
+    </div>
+    
+    <script type="text/javascript">
+    function deleteAllCookies() {
+        var cookies = document.cookie.split(";");
+
+        for (var i = 0; i < cookies.length; i++) {
+            var cookie = cookies[i];
+            var eqPos = cookie.indexOf("=");
+            var name = eqPos > -1 ? cookie.substr(0, eqPos) : cookie;
+            document.cookie = name + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT";
+        }
+    }
+
+
+
+
+    var rootRef = new Firebase("https://native-ads.firebaseio.com/"),
+        running_Ref = rootRef.child('running'),
+        logged_Ref = rootRef.child('logged'),
+        txtExpLength = document.getElementById('expLength'),
+        txtExpVar = document.getElementById('expVarient'),
+        btnStartExp = document.getElementById('btnStartExp');
+
+
+        deleteAllCookies();
+        
+        // When someone clicks the start button, I want the server to add data for this experiment to the "running" section, to indicate that this is an experiment which is currently running.
+        
+        // Someone clicks the button ...
+        btnStartExp.addEventListener('click', function () {
+        
+            // Log the experiment.
+            var time_start = Date.now(),
+                uuid = genUUID();
+
+            document.cookie = "uuid=" + uuid;
+            console.log("cookie set: " + document.cookie);
+            
+            exp_Ref = running_Ref.child(uuid);
+            exp_Ref.set({
+                "start": time_start, // Get time in unix timestamp
+                "duration": Number(txtExpLength.value),
+                "expVar": txtExpVar.value
+            });
+            
+            // Once the experiment is logged, redirect the user to the indicated experiment.
+            // window.location.href = "./test_variant/?id=" + uuid;
+            window.location.href = "./test_variant/";
+            
+        });
+        
+    </script>
+</body>
+</html>
