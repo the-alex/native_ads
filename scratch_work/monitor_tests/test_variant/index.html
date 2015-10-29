@@ -13,6 +13,18 @@
     <script src="https://cdn.firebase.com/js/client/2.3.1/firebase.js"></script>
 
     <script type="text/javascript" src="js/experiment.js"></script>
+    
+    <style>
+        .post {
+            height: 67px;
+        }
+    
+        img {
+            width: 90px;
+        }
+    
+    </style>
+    
 </head>
 
 <body>
@@ -21,34 +33,42 @@
         <!-- BEGIN header -->
         <div id="header">
             <!-- begin pages -->
+<!--
             <ul class="pages">
                 <li><a href="#">Home</a>
                 </li>
                 <li><a href="about.html">About Us</a>
                 </li>
-                <li><a href="page.html">Demo Page</a>
-                </li>
                 <li><a href="contact.html">Contact Page</a>
                 </li>
             </ul>
+-->
             <!-- end pages -->
+<!--
             <form action="#">
                 <input type="text" name="s" id="s" value="" />
                 <button type="submit">Search</button>
             </form>
+-->
             <div class="break"></div>
             <!-- begin logo -->
             <div class="logo">
-                <h1><a href="#">SimpleScheme Magazine</a></h1>
-                <p>Free CSS Template</p>
+                <h1><a href="#">Rakoff's Gazette</a></h1>
+                <p>News that Matters to you.</p>
             </div>
             <!-- end logo -->
-            <!-- begin sponsor -->
-            <div class="sponsor">
-                <a href="#"><img src="images/ad468x60.gif" alt="" />
-                </a>
-            </div>
-            <!-- end sponsor -->
+            <!-- begin categories -->
+    <ul class="categories">
+      <li><a href="#">Advertising</a></li>
+      <li><a href="#">Entertainment</a></li>
+      <li><a href="#">Fashion</a></li>
+      <li><a href="#">Lifestyle</a></li>
+      <li><a href="#">Marketing</a></li>
+      <li><a href="#">Pictures</a></li>
+      <li><a href="#">Resources</a></li>
+      <li><a href="#">Videos</a></li>
+    </ul>
+    <!-- end categories -->
         </div>
         <!-- END header -->
         <!-- BEGIN content -->
@@ -56,23 +76,11 @@
             <!-- begin featured -->
             <div id="featured">
                 <div class="post">
-                    <h2><a href="art5.html">Volkswagen Inquiry's Focus to Include Managers Who Turned a Blind Eye</a></h2>
-                    <div class="thumb">
-                        <a href="art5.html"><img src="images/vw.jpg" alt="" />
+                    <h2><a href="art5.html">Volkswagen to Crack Down on Ignorant Managers</a></h2>
+                        <a href="art5.html"><img src="images/vw.jpg" style="width: 225px; float: left; margin-right: 25px;" alt="" />
                         </a>
-                    </div>
                     <p>A widening internal investigation at Volkswagen is focusing not only on who was responsible for installing illegal software designed to fool emissions testers, but also on which managers may have learned of the deception and failed to take appropriate action, a person briefed on the inquiry said.</p>
                     <p class="readmore">[ <a href="art5.html">read more</a> ]</p>
-                    <div class="break"></div>
-                </div>
-                <div class="post">
-                    <h2><a href="art6.html">Florida bear cull called off; hunters kill nearly 300</a></h2>
-                    <div class="thumb">
-                        <a href="art6.html"><img src="images/bear.jpg" alt="" />
-                        </a>
-                    </div>
-                    <p>Florida's first bear hunt in two decades, which sparked protests by animal rights activists, was called off after just two days after nearly 300 bears were killed, wildlife officials said on Sunday.</p>
-                    <p class="readmore">[ <a href="art6.html">read more</a> ]</p>
                     <div class="break"></div>
                 </div>
             </div>
@@ -81,43 +89,47 @@
             <div class="recent">
                 <!-- begin post -->
                 <div class="o post">
-                    <a href="art1.html"><img src="http://l.yimg.com/bt/api/res/1.2/mzDXkyRk43kg_hYI1IYdYg--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9NjY5O2lsPXBsYW5lO3B5b2ZmPTA7cT03NTt3PTk2MA--/http://media.zenfs.com/en_us/News/ap_webfeeds/c43e3f9eced1bd2f850f6a706700418d.jpg" alt="" style="width: 150px">
+                    <a href="art1.html"><img src="http://l.yimg.com/bt/api/res/1.2/mzDXkyRk43kg_hYI1IYdYg--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9NjY5O2lsPXBsYW5lO3B5b2ZmPTA7cT03NTt3PTk2MA--/http://media.zenfs.com/en_us/News/ap_webfeeds/c43e3f9eced1bd2f850f6a706700418d.jpg" alt="" >
                     </a>
-                    <h2><a href="art1.html">Georgia man faces prison again for stealing sea turtle eggs</a></h2>
-                    <p>Less than two years after he was released from prison, Lewis Jackson found authorities waiting for him as he boarded a ferry boat on remote Sapelo Island carrying a cooler full of contraband valued by some as a mythical aphrodisiac.</p>
-                    <p class="readmore">[ <a href="#">read more</a> ]</p>
+                    <h2><a href="art1.html">Man caught stealing seaturtle eggs- again!</a></h2>
+                    <p>Less than two years after he was released from prison, Lewis Jackson found authorities waiting for him ...</p>
                     <div class="break"></div>
                 </div>
                 <!-- end post -->
                 <!-- begin post -->
                 <div class="e post">
-                    <a href="art2.html"><img src="https://s.yimg.com/ny/api/res/1.2/HsyFHOb4nbXMMlXe2d8WUw--/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9NjMwO2g9MzU1O2lsPXBsYW5l/http://media.zenfs.com/en_US/Entertainment/Variety/screen-shot-2015-10-24-at-3-02-35-pm.png.cf.jpg" alt="" style="width: 150px">
+                    <a href="art2.html"><img src="https://s.yimg.com/ny/api/res/1.2/HsyFHOb4nbXMMlXe2d8WUw--/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9NjMwO2g9MzU1O2lsPXBsYW5l/http://media.zenfs.com/en_US/Entertainment/Variety/screen-shot-2015-10-24-at-3-02-35-pm.png.cf.jpg" alt="">
                     </a>
-                    <h2><a href="art2.html">Al Qaeda Supporter Identified as Son of Hollywood Veteran
+                    <h2><a href="art2.html">Al Qaeda Supporter is Son of Hollywood Vet
 
 </a></h2>
-                    <p>An Al Qaeda supporter named Abu Basir Al-Britani, who appears in an online video, is actually the son of Hollywood vet Patrick Kinney, who served as assistant director on such films as "Braveheart," "Indiana Jones and the Last Crusade" and "Rambo: First Blood Part II."</p>
-                    <p class="readmore">[ <a href="#">read more</a> ]</p>
+                    <p>An Al Qaeda supporter named Abu Basir Al-Britani, who appears in an online video, is actually the son of Hollywood ...</p>
+                    <div class="break"></div>
+                </div>
+                <!-- end post -->
+                <!-- begin post -->
+                <div class="e post">
+                    <a href="art4.html"><img src="images/40hours.jpg"  alt="" />
+                    </a>
+                    <h2><a href="art4.html">The History of the 40-Hour Work Week</a></h2>
+                    <p>It took nearly a century for the eight-hour workday to become standard in the US. In 1890, the US government began tracking workers' ... </p>
+                    <div class="break"></div>
+                </div>
+                <!-- end post -->
+                <!-- begin post -->
+                <div class="s post">
+                    <a href="art3.html"><img src="images/430am.jpg"  alt="" />
+                    </a>
+                    <h2><a href="art3.html">Why this Retired Navy Seal Wakes Up Early</a></h2>
+                    <p>Retired US Navy SEAL commander Jocko Willink has a habit of frequently tweeting out a photo of his watch ... <em>Sponsored &lt;$&gt;</em></p>
                     <div class="break"></div>
                 </div>
                 <!-- end post -->
                 <!-- begin post -->
                 <div class="o post">
-                    <a href="art3.html"><img src="images/430am.jpg" style="width: 150px" alt="" />
-                    </a>
-                    <h2><a href="art3.html">Why this retired Navy SEAL commander has 3 alarm clocks and wakes up at 4:30 a.m.</a></h2>
-                    <p>Retired US Navy SEAL commander Jocko Willink has a habit of frequently tweeting out a photo of his watch when he's ready to take on the day. The watch face always reads somewhere around 4:30 a.m.</p>
-                    <p class="readmore">[ <a href="#">read more</a> ]</p>
-                    <div class="break"></div>
-                </div>
-                <!-- end post -->
-                <!-- begin post -->
-                <div class="e post">
-                    <a href="art4.html"><img src="images/40hours.jpg" style="width: 150px" alt="" />
-                    </a>
-                    <h2><a href="art4.html">Here's how the 40-hour workweek became the standard in America</a></h2>
-                    <p>It took nearly a century for the eight-hour workday to become standard in the US. In 1890, the US government began tracking workers' hours. The average workweek for full-time manufacturing employees was a whopping 100 hours.</p>
-                    <p class="readmore">[ <a href="art4.html">read more</a> ]</p>
+                    <a href="art6.html"><img src="images/bear.jpg" alt="" /></a>
+        <h2><a href="art6.html">Florida Hunters Kill 300 Bears</a></h2>
+            <p>Florida's first bear hunt in two decades, which sparked protests by animal rights activists, was called off after ...</p>
                     <div class="break"></div>
                 </div>
                 <!-- end post -->
@@ -128,28 +140,37 @@
         <!-- BEGIN sidebar -->
         <div id="sidebar">
             <!-- begin sponsors -->
-            <div class="box">
-                <p class="sponsors">
-                    <a href="#"><img src="images/ad125x125.jpg" alt="" />
-                    </a>
-                    <a href="#"><img src="images/ad125x125.jpg" alt="" />
-                    </a>
-                </p>
-                <ul class="bookmarks">
-                    <li class="rss"><a href="#">Subscribe via RSS feed</a>
-                    </li>
-                    <li class="twt"><a href="#">Follow me on Twitter</a>
-                    </li>
-                    <li class="fcb"><a href="#">Connect with me on Facebook</a>
-                    </li>
-                    <li class="ldi"><a href="#">Connect with me on LinkedIn</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- end sponsors -->
+    <div class="box">
+      <div class="p sponsors">
+          <div style="background-color:#00274c; height: 250px; width: 300px">
+              <p style="padding-top: auto; padding-bottom: auto; color: white; font-size: 24px">An Advertisment!</p>
+          </div>
+      </div>
+      <ul class="bookmarks">
+<!--        <li class="rss"><a href="#">Subscribe via RSS feed</a></li>
+            <li class="twt"><a href="#">Follow me on Twitter</a></li>
+            <li class="fcb"><a href="#">Connect with me on Facebook</a></li>
+            <li class="ldi"><a href="#">Connect with me on LinkedIn</a></li>
+-->
+      </ul>
+    </div>
+    <div class="box" id="comic">
+       <h2>Comic</h2>
+        <img src="images/xkcd.png" style="width: 319px;" alt="">
+    </div>
+    <div class="box"  id="stocks">
+        <h2>Stocks</h2>
+        <img src="images/quotes.png" style="width: 319px;" alt="">
+    </div>
+    <div class="box" id="weather">
+        <h2>Forcast</h2>
+        <img src="images/weather.png" style="width:320px" alt="">
+    </div>
+    <!-- end sponsors -->
             <!-- BEGIN left -->
             <div class="l">
                 <!-- begin categories -->
+<!--
                 <div class="box">
                     <h2>Categories</h2>
                     <ul>
@@ -169,23 +190,14 @@
                         </li>
                     </ul>
                 </div>
+-->
                 <!-- end categories -->
-                <!-- begin meta -->
-                <div class="box">
-                    <h2>Meta</h2>
-                    <ul>
-                        <li><a href="#">Log in</a>
-                        </li>
-                        <li><a href="#">Valid XHTML</a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- end meta -->
             </div>
             <!-- END left -->
             <!-- BEGIN right -->
             <div class="r">
                 <!-- begin archives -->
+<!--
                 <div class="box">
                     <h2>Archives</h2>
                     <ul>
@@ -201,19 +213,7 @@
                         </li>
                     </ul>
                 </div>
-                <!-- end archives -->
-                <!-- begin blogroll -->
-                <div class="box">
-                    <h2>Blogroll</h2>
-                    <ul>
-                        <li><a href="#">Documentation</a>
-                        </li>
-                        <li><a href="#">Suggest Ideas</a>
-                        </li>
-                        <li><a href="#">Support Forum</a>
-                        </li>
-                    </ul>
-                </div>
+-->
                 <!-- end archives -->
             </div>
             <!-- END right -->
@@ -221,11 +221,6 @@
         <!-- END sidebar -->
     </div>
     <!-- END wrapper -->
-    <!-- BEGIN footer -->
-    <div id="footer">
-        <p class="l">Copyright &copy; 2009 - <a href="#">Website Name</a> &middot; All Rights Reserved | Template by: <a href="http://www.wpthemedesigner.com/">WordPress Designer</a> | Get More <a href="#">Free CSS Templates</a> </p>
-    </div>
-    <!-- END footer -->
 </body>
 
 </html>
