@@ -1,18 +1,29 @@
 * {
 	margin: 0; padding: 0;
 }
+.tools {
+    float: left;
+    position: absolute;
+    display: block;
+}
+    .tools #back {
+        width: 100%;
+    }
+    .tools #forward {
+        width: 100%;
+    }
+
 body {
 	text-align: center;
 	font: 12px Verdana;
 	color: #333333;
-	background: #F7F6F6 repeat-x 0 0;
+	background: #F7F6F6;
 }
 a {
-	color: #003366;
+	color: rgb(50, 79, 225);
 }
 a:hover {
-	text-decoration: none;
-	color: #ff0000;
+	text-decoration: underline;
 }
 img {
 	border: 0;
@@ -117,7 +128,7 @@ img {
 		clear: both;
 		list-style-type: none;
 		height: 40px;
-		border-bottom: 5px solid #003366;
+		border-bottom: 5px solid rgb(182, 142, 231);
 		border-top: 1px solid #DDDDDD;
 		overflow: hidden;
 	}
@@ -132,7 +143,7 @@ img {
 			text-decoration: none;
 		}
 		#header .categories li a:hover {
-			background-color: #003366;
+			background-color: rgb(182, 142, 231);
 			color: #ffffff;
 		}
 /** END header **/
@@ -143,6 +154,7 @@ img {
 	width: 650px;
 	float: left;
 	padding-bottom: 10px;
+    color: rgb(95, 95, 95);
 }
 	#featured {
 		border: 1px solid #DDDDDD;
@@ -160,10 +172,12 @@ img {
 			#featured h2 a {
 				text-decoration: none;
 			}
+            #featured h2 a:hover {
+				text-decoration: underline;
+			}
 		#featured .details {
 			font-size: 0.9em;
 			margin-bottom: 15px;
-			color: #888888;
 		}
 			#featured .details a {
 				color: #888888;
@@ -207,6 +221,7 @@ img {
 		border: 1px solid #DDDDDD;
 	}
 		#content .recent .post {
+            height: 88px;
 			padding: 15px;
 			clear: both;
 		}
@@ -217,13 +232,19 @@ img {
 			}
 				#content .recent .post h2 a {
 					text-decoration: none;
+                    color: rgb(50, 79, 225);
 				}
+                #content .recent .post h2 a:hover {
+                    text-decoration: underline;
+                }
 			#content .recent .post img {
-				float: right;
+				float: left;
 				padding: 5px;
 				border: 1px solid #DDDDDD;
 				background-color: #FFFFFF;
-				margin-left: 20px;
+				margin-right: 20px;
+                height: 82px;
+                width: 82px;
 			}
 			#content .recent .post p {
 				line-height: 1.4em;
@@ -237,7 +258,7 @@ img {
 			background-color: #EEEEEE;
 		}
         #content .recent .s {
-            background-color: #c0c0c0;
+            background-color: #eeeeee;
         }
 	#content {
 		
@@ -256,8 +277,8 @@ img {
 		#sidebar .box h2 {
 			font-size: 0.9em;
 			text-transform: uppercase;
-			color: #003366;
-			background-color: #EEEEEE;
+			color: rgb(95, 95, 95);
+			background-color: #efefef;
 			padding: 10px;
 			border-bottom: 1px solid #dddddd;
 		}
