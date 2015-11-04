@@ -151,7 +151,7 @@ img {
 /** BEGIN content **/
 #content {
 	clear: both;
-	width: 650px;
+	width: inherit;
 	float: left;
 	padding-bottom: 10px;
     color: rgb(95, 95, 95);
@@ -224,6 +224,7 @@ img {
             height: 88px;
 			padding: 15px;
 			clear: both;
+            border-bottom: 1px solid #DDDDDD;
 		}
 			#content .recent .post h2 {
 				font-size: 1.5em;
@@ -406,7 +407,7 @@ img {
 			padding: 4px;
 		}
 		#content .postnav ul li a {
-			color: #636363;
+			color: #b46464;
 			text-decoration: none;
 			display: block;
 			padding: 2px 6px;
@@ -438,6 +439,7 @@ img {
 	#content .single p {
 		line-height: 1.5em;
 		margin-bottom: 10px;
+        font-size: 1.2em;
 	}
 	#content .single ul, #content .single ol {
 		list-style-position: inside;
@@ -459,6 +461,9 @@ img {
 		font-size: 1.2em;
 		margin-bottom: 5px;
 	}
+    #content .single img {
+        float: right;
+    }
 #comments {
 	padding: 10px;
 }

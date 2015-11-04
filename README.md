@@ -9,8 +9,6 @@ Native Ads: How do users react?
 
 
 
-
-
 * Short Term
     - Take out ... 
         + Sidebar on articles.
