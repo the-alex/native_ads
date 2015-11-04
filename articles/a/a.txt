@@ -1,0 +1,19 @@
+HEADLINE :: Zynga's CFO has resigned, effective immediately, with no reason given
+
+IMG :: zynga.png
+
+BODY :: 
+Zynga CFO David Lee is stepping down, effective immediately, the gaming company reported in its Q3 earnings. 
+Zynga did not provide a reason for the abrupt change.
+
+Lee, who joined the company in April 2014, will be temporarily replaced by interim CFO Michelle Quejado, who was formerly the company's chief accounting officer. 
+
+The company, most famous for its FarmVille and Words With Friends franchises, beat analyst estimates on both the top and bottom line, with revenue of $196 million and break-even non-GAAP EPS.
+
+Zynga also said that a key metric — average monthly active users — declined by 27% year-over-year during the third quarter (compared to 32% year-over-year decline in Q2). 
+
+The stock was up as much as ~2% after-hours, but is now more or less flat.
+
+This change comes about six months after founder Mark Pincus returned from a two year hiatus to take the company's helm as CEO. 
+
+Pincus highlighted a few "key intiatives," that Lee had spearheaded since, including a $100 million cost reduction program, the company's transition to mobile, and a $200 millino stock buyback program that the company had just announced.

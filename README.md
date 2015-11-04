@@ -8,24 +8,24 @@ Native Ads: How do users react?
     - I had just finished tiying up the front page and I was about to start modifying the articles as well.
 
 
+
+
+
 * Short Term
     - Take out ... 
+        + Sidebar on articles.
     - Change ...
-        + Meta Title (of each page)
-        + Title / Subtitle.
     - Add ...
-        + _Add noise (Dead links) to right side on every page_
-            * Stocks
-            * Comics
-            * Weather
-        + Make a native ad css style
     - Get 30 Articles
+        + 5 sites x 6 articles
     - Anticipate 6 Brands
  * Long Term
     - Create Multiple Layout Schemes
     - Get the style specs from Yahoo news.
 
 ## Notes
+
+* Favor shorter articles.
 
 * Left column 320px wide
 
