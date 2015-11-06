@@ -56,6 +56,8 @@ function iterate_experiment(current_exp) {
         // Get info on where we're going next ...
         var next_path = get_next_path();
 
+        alert("Moving to the next iteration! Please click 'ok' to continue.");
+
         // If we're about to end, shut it down properly
         if (next_path == '/') {
             current_exp.time_iteration_end = null;
