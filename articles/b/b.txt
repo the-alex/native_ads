@@ -3,7 +3,7 @@ HEADLINE :: Missing runner, a recovering addict, found after NY marathon
 IMG :: heroin.jpg
 
 BODY :: 
-NEW YORK (AP) — A recovering heroin addict from Italy last seen after crossing the finish line at Sunday's New York City Marathon was found Tuesday aboard a subway train, police said.
+A recovering heroin addict from Italy last seen after crossing the finish line at Sunday's New York City Marathon was found Tuesday aboard a subway train, police said.
 
 Gianclaudio Marengo, 30, was still wearing his racing attire of a turquoise shirt and black shorts when an off-duty police officer on his way to work noticed him on a midtown Manhattan train at about 6:40 a.m. He was taken to a police station and then to a hospital to be treated for dehydration, authorities said.
 

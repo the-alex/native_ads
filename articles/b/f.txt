@@ -4,6 +4,7 @@ IMG :: jobs.png, steve.jpg
 
 BODY :: 
 In a sign that most audiences just don't want to watch movies about Steve Jobs, box-office numbers show that the new movie about the Apple cofounder, "Steve Jobs," from acclaimed director Danny Boyle and screenwriter Aaron Sorkin is on par with the numbers for the 2013 critical dud "Jobs," starring Ashton Kutcher as the tech figure.
+
 Though "Steve Jobs" looked to come out of the starting gate strong with a limited run that brought in $2.2 million over two weeks in 60 screens, the film took in only $7.1 million in its first weekend nationwide. "Jobs" took in $6.7 million in its first weekend of wide release. ("Steve Jobs" has yet to open overseas.)
 
 "Steve Jobs" has a box-office gross of $14.7 million in its fourth week in theaters. "Jobs" hit $14.8 million in its third week.

@@ -3,9 +3,8 @@ HEADLINE :: Donald Trump had a wild interview with Chris Cuomo, who pleaded with
 IMG :: trump.png
 
 BODY :: 
-CNN's Chris Cuomo interviewing Donald Trump. 
-
 Republican presidential candidate Donald Trump clashed with CNN anchor Chris Cuomo during an unusual interview on Wednesday morning.
+
 During a lengthy exchange, Trump repeatedly trashed a CNN reporter covering his campaign, Sara Murray, as Cuomo defended her.
 
 "I'm getting the biggest crowds by far," Trump said early in the interview. "Sara Murray didn't report it very well, because she never flips the camera to show the lines. I think she's absolutely terrible, your reporter."

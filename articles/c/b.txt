@@ -4,6 +4,7 @@ IMG :: hildawg.jpg
 
 BODY :: 
 Former US Secretary of State Hillary Clinton's marathon testimony in front of the US House Select Committee on Benghazi appears to have worked in her political favor.
+
 According to a new Wall Street Journal/NBC News poll released Tuesday, the number of Americans who remained unsatisfied with the Democratic presidential front-runner's handling of the 2012 terrorist attack on the American consulate in Benghazi, Libya, which left four Americans dead, has dropped significantly.
 
 The poll found that 38% of Americans were unsatisfied with Clinton's answers to questions about the attack, down from 44% who were unsatisfied before her 11-hour testimony in Congress last month.

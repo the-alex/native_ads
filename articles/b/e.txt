@@ -1,4 +1,4 @@
-HEADLINE :: Sam’s Club kicks off Black Friday sales early with a one-day-only event next week
+HEADLINE :: Sam's Club kicks off Black Friday sales early with a one-day-only event next week
 
 IMG :: sams.jpg
 

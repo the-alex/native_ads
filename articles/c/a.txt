@@ -3,8 +3,7 @@ HEADLINE :: Netflix CEO reveals how much vacation he takes, and it's a lot more 
 IMG :: netflix.jpg
 
 BODY :: 
-At Tuesday's DealBook conference, organized by The New York Times, Netflix CEO Reed Hastings said he took a full six weeks of vacation per year and it was "helpful."
-He said he was "open about it internally, to try to set a good example."
+At Tuesday's DealBook conference, organized by The New York Times, Netflix CEO Reed Hastings said he took a full six weeks of vacation per year and it was "helpful." He said he was "open about it internally, to try to set a good example."
 
 Netflix doesn't have a vacation policy, according to its widely circulated culture deck, opting instead for "unlimited" vacation time. (Business Insider offers the same policy.)
 
