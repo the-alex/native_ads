@@ -339,7 +339,8 @@ img {
 				padding-top: 5px;
 			}
 		#sidebar .box .sponsors {
-			padding: 10px 10px 0;
+/*			padding: 10px 10px 0;*/
+            
 			text-align: center;
 		}
 			#sidebar .box .sponsors img {
