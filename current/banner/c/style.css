@@ -17,7 +17,7 @@ body {
 	text-align: center;
 	font: 12px Verdana;
 	color: #333333;
-	background: #F7F6F6;
+	background: #FFFFFF;
 }
 a {
 	color: rgb(50, 79, 225);
@@ -113,6 +113,7 @@ img {
 		}
 			#header .logo h1 a {
 				text-decoration: none;
+                color: rgb(182, 142, 231);
 			}
 		#header .logo p {
 			color: #888888;
@@ -240,8 +241,6 @@ img {
                 }
 			#content .recent .post img {
 				float: left;
-				padding: 5px;
-				border: 1px solid #DDDDDD;
 				background-color: #FFFFFF;
 				margin-right: 20px;
                 height: 82px;
@@ -256,10 +255,10 @@ img {
 				font-size: 0.8em;
 			}
 		#content .recent .o {
-			background-color: #EEEEEE;
+			background-color: #FFFFFF;
 		}
         #content .recent .s {
-            background-color: #eeeeee;
+            background-color: #FAFAFF;
         }
 	#content {
 		
@@ -339,7 +338,6 @@ img {
 				padding-top: 5px;
 			}
 		#sidebar .box .sponsors {
-			padding: 10px 10px 0;
 			text-align: center;
 		}
 			#sidebar .box .sponsors img {
