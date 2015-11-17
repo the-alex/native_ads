@@ -28,6 +28,7 @@ a:hover {
 img {
 	border: 0;
 }
+
 .break {
 	font-size: 0;
 	width: 0; height: 0;
@@ -245,11 +246,6 @@ img {
                 height: 82px;
                 width: 82px;
 			}
-            #content .recent .post .cash {
-                width: 82px;
-                height: 26px;
-                float: right;
-            }
 			#content .recent .post p {
 				line-height: 1.4em;
 				margin-bottom: 10px;
@@ -342,7 +338,6 @@ img {
 				padding-top: 5px;
 			}
 		#sidebar .box .sponsors {
-			padding: 10px 10px 0;
 			text-align: center;
 		}
 			#sidebar .box .sponsors img {
@@ -544,4 +539,64 @@ h2.title {
 		font-weight: normal;
 		margin-bottom: 10px;
 	}
+
 /** END miscellaneous **/
+
+/** BEGIN wordpress 2.7 comments **/
+#comments ol {
+	list-style-type: none;
+	clear: both;
+	padding: 0;
+	margin: 0;
+}
+	#comments .buffer {
+		padding: 10px;
+	}
+	#comments ol li {
+		margin-bottom: 10px;
+	}
+	#comments ol li ul li {
+		border: 1px solid #e0e0e0;
+		padding: 10px;
+	}
+	#comments ol li .avatar {
+		float: right;
+	}
+	#comments ol li .comment-author {
+		
+	}
+		#comments ol li .comment-author .fn {
+			font-weight: bold;
+			font-size: 1.2em;
+		}
+	#comments ol li .comment-meta {
+		font-size: 0.9em;
+		color: #999999;
+		margin: 5px 0 10px;
+	}
+	#comments ol li .reply {
+		font-size: 0.9em;
+		font-weight: bold;
+		padding-bottom: 10px;
+	}
+	#comments .children {
+		list-style-type: none;
+	}
+#comments .navigation {
+	padding: 0 0 40px;
+	font-size: 0.9em;
+}
+	#comments .navigation a {
+		color: #999999;
+		padding: 3px 8px;
+		border: 1px solid #cccccc;
+	}
+	#comments .navigation a:hover {
+		color: #000000;
+		border-color: #000000;
+		text-decoration: none;
+	}
+#comments .says {
+	display: none;
+}
+/** END wordpress 2.7 comments **/
