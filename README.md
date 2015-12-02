@@ -5,8 +5,7 @@ Native Ads: How do users react?
 ## TODO
 
 * Short Term
-    - Make back and forwards arrows.
-
-## Notes
-
-* 
+    - Remove forwards button from news pages.
+    - Move the back buttons to the vertical middle of the page.
+* Long Term
+    - Chase the dream.
