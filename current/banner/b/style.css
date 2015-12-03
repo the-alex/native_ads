@@ -6,6 +6,8 @@
     position: absolute;
     display: block;
     zoom: 2;
+    top: 50%;
+    transform: translateY(-50%);
 }
     .tools #back {
         width: 100%;
